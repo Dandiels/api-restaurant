@@ -1,0 +1,1 @@
+## API de um restaurante usando Express, SQLite e Knex no Node.js (projeto prático).

@@ -1,0 +1,26 @@
+{
+  "name": "api-restaurant",
+  "version": "1.0.0",
+  "description": "API para gerenciar pedidos das mesas de um restaurante.",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "author": "Daniel Freitas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/express": "^5.0.0",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^22.10.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

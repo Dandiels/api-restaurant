@@ -1,0 +1,180 @@
+{
+    "info": {
+        "_postman_id": "2215f5e7-2ac3-4fd3-a218-98064c0c286e",
+        "name": "API Restaurant",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "Products",
+            "item": [
+                {
+                    "name": "Index",
+                    "request": {
+                        "method": "GET",
+                        "url": {
+                            "raw": "/products",
+                            "host": [
+                                "products"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Create",
+                    "request": {
+                        "method": "POST",
+                        "url": {
+                            "raw": "/products",
+                            "host": [
+                                "products"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Update",
+                    "request": {
+                        "method": "PUT",
+                        "url": {
+                            "raw": "/products/:id",
+                            "path": [
+                                ":id"
+                            ],
+                            "host": [
+                                "products"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Remove",
+                    "request": {
+                        "method": "DELETE",
+                        "url": {
+                            "raw": "/products/:id",
+                            "path": [
+                                ":id"
+                            ],
+                            "host": [
+                                "products"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Tables",
+            "item": [
+                {
+                    "name": "Index",
+                    "request": {
+                        "method": "GET",
+                        "url": {
+                            "raw": "/tables",
+                            "host": [
+                                "tables"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Tables Sessions",
+            "item": [
+                {
+                    "name": "Index",
+                    "request": {
+                        "method": "GET",
+                        "url": {
+                            "raw": "/tables-sessions",
+                            "host": [
+                                "tables-sessions"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Open",
+                    "request": {
+                        "method": "POST",
+                        "url": {
+                            "raw": "/tables-sessions",
+                            "host": [
+                                "tables-sessions"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Close",
+                    "request": {
+                        "method": "PATCH",
+                        "url": {
+                            "raw": "/tables-sessions/:id",
+                            "path": [
+                                ":id"
+                            ],
+                            "host": [
+                                "tables-sessions"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Orders",
+            "item": [
+                {
+                    "name": "Index By Table Session",
+                    "request": {
+                        "method": "GET",
+                        "url": {
+                            "raw": "/orders/table-session/:table_session_id",
+                            "path": [
+                                "table-session",
+                                ":table_session_id"
+                            ],
+                            "host": [
+                                "orders"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Create",
+                    "request": {
+                        "method": "POST",
+                        "url": {
+                            "raw": "/orders",
+                            "host": [
+                                "orders"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Show By Table Session",
+                    "request": {
+                        "method": "GET",
+                        "url": {
+                            "raw": "/orders/table-session/:table_session_id/total",
+                            "path": [
+                                "table-session",
+                                ":table_session_id",
+                                "total"
+                            ],
+                            "host": [
+                                "orders"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

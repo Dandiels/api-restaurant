@@ -1,0 +1,177 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "API Restaurant",
+    "collectionId": "5ef07197-5624-43e5-b19c-56217034ec34",
+    "dateExported": "2025-01-04T20:25:35.865Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "94358064-fcda-4eac-a339-ddefc79e1f4c",
+            "name": "Products",
+            "containerId": "",
+            "created": "2025-01-02T12:34:19.049Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "2c94eda5-001f-435d-9de6-fdfe41804654",
+            "name": "Tables",
+            "containerId": "",
+            "created": "2025-01-03T16:25:24.671Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "c9811d2a-07a0-49ef-b966-241798c6fb55",
+            "name": "Tables Sessions",
+            "containerId": "",
+            "created": "2025-01-03T18:11:45.152Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "e2ced6c0-4a4e-4d00-a7d9-5569df8c0570",
+            "name": "Orders",
+            "containerId": "",
+            "created": "2025-01-04T17:33:11.465Z",
+            "sortNum": 50000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "80668fb8-52a0-4fdc-a062-27fde2c04a4d",
+            "colId": "5ef07197-5624-43e5-b19c-56217034ec34",
+            "containerId": "94358064-fcda-4eac-a339-ddefc79e1f4c",
+            "name": "Index",
+            "url": "/products",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-01-02T12:37:51.235Z",
+            "modified": "2025-01-04T20:20:35.610Z",
+            "headers": []
+        },
+        {
+            "_id": "3550d62b-ad7e-4b94-a77f-24c4c245761e",
+            "colId": "5ef07197-5624-43e5-b19c-56217034ec34",
+            "containerId": "94358064-fcda-4eac-a339-ddefc79e1f4c",
+            "name": "Create",
+            "url": "/products",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-01-02T16:21:51.384Z",
+            "modified": "2025-01-04T20:20:37.250Z",
+            "headers": []
+        },
+        {
+            "_id": "2a9e82b0-4fd2-4df0-a22d-cbc4ee07a8cd",
+            "colId": "5ef07197-5624-43e5-b19c-56217034ec34",
+            "containerId": "94358064-fcda-4eac-a339-ddefc79e1f4c",
+            "name": "Update",
+            "url": "/products/:id",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2025-01-02T17:21:21.995Z",
+            "modified": "2025-01-04T20:20:38.738Z",
+            "headers": []
+        },
+        {
+            "_id": "e7825bc2-48ba-49fd-9223-e63f807f0e53",
+            "colId": "5ef07197-5624-43e5-b19c-56217034ec34",
+            "containerId": "c9811d2a-07a0-49ef-b966-241798c6fb55",
+            "name": "Index",
+            "url": "/tables-sessions",
+            "method": "GET",
+            "sortNum": 45000,
+            "created": "2025-01-03T19:45:17.895Z",
+            "modified": "2025-01-03T19:45:29.176Z",
+            "headers": []
+        },
+        {
+            "_id": "30992481-28ba-48f0-add0-778c0c7330fe",
+            "colId": "5ef07197-5624-43e5-b19c-56217034ec34",
+            "containerId": "94358064-fcda-4eac-a339-ddefc79e1f4c",
+            "name": "Remove",
+            "url": "/products/:id",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-01-03T13:42:47.994Z",
+            "modified": "2025-01-04T20:20:45.491Z",
+            "headers": []
+        },
+        {
+            "_id": "99250007-2533-466d-90a8-baee2261ccb8",
+            "colId": "5ef07197-5624-43e5-b19c-56217034ec34",
+            "containerId": "e2ced6c0-4a4e-4d00-a7d9-5569df8c0570",
+            "name": "Index By Table Session",
+            "url": "/orders/table-session/:table_session_id",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2025-01-04T18:14:45.950Z",
+            "modified": "2025-01-04T20:23:42.675Z",
+            "headers": []
+        },
+        {
+            "_id": "f08599eb-c58f-4666-8739-a6e37682179b",
+            "colId": "5ef07197-5624-43e5-b19c-56217034ec34",
+            "containerId": "2c94eda5-001f-435d-9de6-fdfe41804654",
+            "name": "Index",
+            "url": "/tables",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2025-01-03T16:25:30.860Z",
+            "modified": "2025-01-03T16:26:39.793Z",
+            "headers": []
+        },
+        {
+            "_id": "d5eb797a-c593-495d-bc66-9f0600f73848",
+            "colId": "5ef07197-5624-43e5-b19c-56217034ec34",
+            "containerId": "c9811d2a-07a0-49ef-b966-241798c6fb55",
+            "name": "Open",
+            "url": "/tables-sessions",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2025-01-03T18:12:37.150Z",
+            "modified": "2025-01-04T20:21:15.169Z",
+            "headers": []
+        },
+        {
+            "_id": "676e6b38-ee86-4cee-a740-ab9fc54e4478",
+            "colId": "5ef07197-5624-43e5-b19c-56217034ec34",
+            "containerId": "c9811d2a-07a0-49ef-b966-241798c6fb55",
+            "name": "Close",
+            "url": "/tables-sessions/:id",
+            "method": "PATCH",
+            "sortNum": 110000,
+            "created": "2025-01-03T20:27:23.019Z",
+            "modified": "2025-01-04T20:21:53.629Z",
+            "headers": []
+        },
+        {
+            "_id": "c30f0afc-d215-415b-ae9a-c733cf170554",
+            "colId": "5ef07197-5624-43e5-b19c-56217034ec34",
+            "containerId": "e2ced6c0-4a4e-4d00-a7d9-5569df8c0570",
+            "name": "Create",
+            "url": "/orders",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2025-01-04T17:33:16.119Z",
+            "modified": "2025-01-04T20:24:24.286Z",
+            "headers": []
+        },
+        {
+            "_id": "b3f0c294-0768-4023-a87f-9bbee601b073",
+            "colId": "5ef07197-5624-43e5-b19c-56217034ec34",
+            "containerId": "e2ced6c0-4a4e-4d00-a7d9-5569df8c0570",
+            "name": "Show By Table Session",
+            "url": "/orders/table-session/:table_session_id/total",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2025-01-04T19:33:01.663Z",
+            "modified": "2025-01-04T20:24:15.861Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:3333"
+        }
+    },
+    "ref": "M0sQchc1gVaTOPYGHBSQjcrptMEre8ocVAGgSrIhz0y1AjHNm07BFyLrFUJFvmOXroLl5qtzxaFRE5-GnNryDw"
+}
